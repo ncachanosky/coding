@@ -2,7 +2,7 @@
 import matplotlib.pyplot as plt
 
 # %% | MATPLOTLIB STYLE AND FORMATS
-plt.style.use('https://github.com/ncachanosky/coding/blob/main/python/matplotlib/UTEP')
+plt.style.use('https://github.com/ncachanosky/coding/blob/main/python/matplotlib/Style_UTEP')
 
 # %% | PLOT EXAMPLE
 fig, ax = plt.subplots()  # Create a figure containing a single axes.
