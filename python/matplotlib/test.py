@@ -1,8 +1,12 @@
 # %% | IMPORT PACKAGES
-import matplotlib.pyplot as plt
+import  numpy               as np
+import  matplotlib.pyplot   as plt
+from    matplotlib          import style
+
 
 # %% | MATPLOTLIB STYLE AND FORMATS
-plt.style.use('Style_UTEP')
+# plt.style.use('Style_UTEP')
+plt.style.use('https://github.com/ncachanosky/coding/blob/main/python/matplotlib/Style_UTEP?raw=true')
 
 # %% | PLOT EXAMPLE
 fig, ax = plt.subplots()  # Create a figure containing a single axes.
