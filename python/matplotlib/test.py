@@ -5,7 +5,7 @@ from    matplotlib          import style
 
 
 # %% | MATPLOTLIB STYLE AND FORMATS
-# plt.style.use('Style_UTEP')
+# plt.style.use('my-paper')
 plt.style.use('https://github.com/ncachanosky/coding/blob/main/python/matplotlib/Style_UTEP?raw=true')
 
 # %% | PLOT EXAMPLE
