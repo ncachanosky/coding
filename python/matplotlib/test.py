@@ -6,7 +6,7 @@ from    matplotlib          import style
 
 # %% | MATPLOTLIB STYLE AND FORMATS
 # plt.style.use('my-paper')
-plt.style.use('https://github.com/ncachanosky/coding/blob/main/python/matplotlib/Style_UTEP?raw=true')
+plt.style.use('https://github.com/ncachanosky/coding/blob/main/python/matplotlib/my-paper?raw=true')
 
 # %% | PLOT EXAMPLE
 fig, ax = plt.subplots()  # Create a figure containing a single axes.
