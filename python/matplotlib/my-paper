@@ -403,6 +403,7 @@ axes.linewidth:     1     # edge line width
 
 #axes.unicode_minus: True  # use Unicode for the minus symbol rather than hyphen.  See
                            # https://en.wikipedia.org/wiki/Plus_and_minus_signs#Character_codes
+axes.prop_cycle: cycler('color', ['tab:blue', 'tab:orange', 'tab:green', 'tab:red', 'tab:purple', 'tab:brown', 'tab:pink', 'tab:gray', 'tab:olive', 'tab:cyan'])
 #axes.prop_cycle: cycler('color', ['041E42', '#FF8200', '#B1B3B3', '168039', '5C148C', 'F2B705', '546E7A', '35478C', '8C1C03', '468966'])
                   # color cycle for plot lines as list of string color specs:
                   # single letter, long name, or web-style hex
