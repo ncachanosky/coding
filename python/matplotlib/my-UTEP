@@ -362,7 +362,6 @@ axes.grid.axis:     both     # which axis the grid should apply to
 axes.grid.which:    major    # grid lines at {major, minor, both} ticks
 axes.titlelocation: left     # alignment of the title: {left, right, center}
 #axes.titlesize:     large   # font size of the axes title
-#axes.titleweight:   normal  # font weight of title
 #axes.titlecolor:    auto    # color of the axes title, auto falls back to
                              # text.color as default value
 #axes.titley:        None    # position title (axes relative units).  None implies auto
