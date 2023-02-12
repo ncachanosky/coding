@@ -356,16 +356,16 @@ font.sans-serif: Roboto condensed, Bitstream Vera Sans, Computer Modern Sans Ser
 ## https://matplotlib.org/api/axes_api.html#module-matplotlib.axes
 #axes.facecolor:     white   # axes background color
 #axes.edgecolor:     black   # axes edge color
-axes.linewidth:     1        # edge line width
+axes.linewidth:      1        # edge line width
 axes.grid:           true    # display grid or not
-axes.grid.axis:     both     # which axis the grid should apply to
-axes.grid.which:    major    # grid lines at {major, minor, both} ticks
-axes.titlelocation: left     # alignment of the title: {left, right, center}
-axes.titlesize:     x-large   # font size of the axes title
+axes.grid.axis:      both     # which axis the grid should apply to
+axes.grid.which:     major    # grid lines at {major, minor, both} ticks
+axes.titlelocation:  left     # alignment of the title: {left, right, center}
+axes.titlesize:      x-large   # font size of the axes title
 #axes.titlecolor:    auto    # color of the axes title, auto falls back to
                              # text.color as default value
 #axes.titley:        None    # position title (axes relative units).  None implies auto
-#axes.titlepad:      6.0     # pad between axes and title in points
+axes.titlepad:       12.0      # pad between axes and title in points
 #axes.labelsize:     medium  # font size of the x and y labels
 #axes.labelpad:      4.0     # space between label and axis
 #axes.labelweight:   normal  # weight of the x and y labels
@@ -544,10 +544,10 @@ legend.frameon:       False     # if True, draw the legend on a background patch
 ## * FIGURE                                                                  *
 ## ***************************************************************************
 ## See https://matplotlib.org/api/figure_api.html#matplotlib.figure.Figure
-figure.titlesize:   36     # size of the figure title (``Figure.suptitle()``)
-#figure.titleweight: normal    # weight of the figure title
-figure.figsize:     16, 8      # figure size in inches
-figure.dpi:         300        # figure dots per inch
+figure.titlesize:    32        # size of the figure title (``Figure.suptitle()``)
+#figure.titleweight:  normal    # weight of the figure title
+figure.figsize:      10, 9     # figure size in inches
+figure.dpi:          300       # figure dots per inch
 #figure.facecolor:   white     # figure face color
 #figure.edgecolor:   white     # figure edge color
 #figure.frameon:     True      # enable figure frame
@@ -584,7 +584,7 @@ figure.dpi:         300        # figure dots per inch
 ## ***************************************************************************
 #image.aspect:          equal        # {equal, auto} or a number
 #image.interpolation:   antialiased  # see help(imshow) for options
-image.cmap:            tab10      # A colormap name, gray etc...
+image.cmap:             tab10      # A colormap name, gray etc...
 #image.lut:             256          # the size of the colormap lookup table
 #image.origin:          upper        # {lower, upper}
 #image.resample:        True
