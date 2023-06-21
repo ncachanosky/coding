@@ -1,0 +1,15 @@
+https://pydata.github.io/pandas-datareader/index.html
+
+import os
+import pandas            as pd
+import numpy             as np
+import matplotlib.pyplot as plt
+
+# Directory
+os.chdir('C:/Users/ncachanosky/OneDrive/Research/Working Papers/Paper - Dollarization (ECAEF)')
+
+# Plost style
+style_UTEP = "C:/Users/ncachanosky/OneDrive/GitHub/coding/python/matplotlib/my-UTEP.mplstyle"
+style_paper = "C:/Users/ncachanosky/OneDrive/GitHub/coding/python/matplotlib/my-paper.mplstyle"
+
+plt.style.use(style_paper)

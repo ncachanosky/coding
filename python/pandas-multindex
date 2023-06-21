@@ -1,0 +1,22 @@
+# %%
+import pandas     as pd
+import matplotlib as plt
+
+
+# %%
+
+file = "C:/Users/ncachanosky/OneDrive/Research/Datasets/V-Dem-CY-Core-v12.dta"
+X = pd.read_stata(file)
+
+
+
+# Create the panel
+X_panel = X.set_index(['country_name', 'year']).sort_index()
+
+# Examples
+X_panel.index.names    # Index columns
+X_panel.index.values   # Index values
+
+X_panel.reset_index () # Reset (remove) index
+
+X_panel.loc[('Argentina','1980.0'), :]
