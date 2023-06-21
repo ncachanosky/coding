@@ -4,7 +4,7 @@
 #### FONTS
 font.family: sans-serif
 font.size  : 16
-font.sans-serif: Robot condensed, Arial, Verdana
+font.sans-serif: Roboto condensed, Arial, Verdana
 
 #### COLORS
 axes.prop_cycle: cycler('color', ['tab:blue','tab:orange','tab:green','tab:red','tab:purple','tab:brown','tab:pink','tab:gray','tab:olive','tab:cyan'])
@@ -23,6 +23,17 @@ axes.titlepad     : 12
 
 #### AXES
 axes.linewidth : 2
+
+axes.spines.bottom: True
+axes.spines.left:   True
+axes.spines.right:  False
+axes.spines.top:    False
+
 axes.grid      : True
 axes.grid.axis : both
 axes.grid.which: major
+grid.linestyle: dotted
+grid.color: gray
+
+
+
