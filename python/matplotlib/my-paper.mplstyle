@@ -38,3 +38,6 @@ ytick.labelsize: large
 
 grid.linestyle: dotted
 grid.color: gray
+
+### LEGEND
+legend.fontsize: large
