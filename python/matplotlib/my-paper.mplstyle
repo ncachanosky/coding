@@ -41,3 +41,4 @@ grid.color: gray
 
 ### LEGEND
 legend.fontsize: large
+legend.framealpha: 0
