@@ -17,9 +17,7 @@ figure.dpi      : 300
 lines.linewidth: 2
 
 ### TITLE
-axes.titlelocation: left
-axes.titlesize    : xx-large 
-axes.titlepad     : 12
+figure.titlesize: x-large
 
 #### AXES
 axes.linewidth: 2
