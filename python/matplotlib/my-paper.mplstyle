@@ -23,8 +23,8 @@ axes.titlepad     : 12
 
 #### AXES
 axes.linewidth : 2
-axes.titlesize: x-large
-axes.labelsize: x-large
+axes.titlesize: large
+axes.labelsize: large
 axes.spines.bottom: True
 axes.spines.left:   True
 axes.spines.right:  True
@@ -32,5 +32,9 @@ axes.spines.top:    True
 axes.grid      : False
 axes.grid.axis : both
 axes.grid.which: major
+
+xtick.labelsize: large
+ytick.labelsize: large
+
 grid.linestyle: dotted
 grid.color: gray
