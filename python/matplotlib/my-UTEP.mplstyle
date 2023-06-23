@@ -3,7 +3,7 @@
 
 #### FONTS
 font.family: sans-serif
-font.size  : 16
+font.size  : large
 font.sans-serif: Roboto condensed, Arial, Verdana
 
 #### COLORS
@@ -18,7 +18,8 @@ lines.linewidth: 2
 
 ### TITLE
 figure.titlesize: xx-large
-figure.labelsize: 32
+figure.labelsize: xx-large
+
 
 #### AXES
 axes.linewidth: 2
