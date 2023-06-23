@@ -17,7 +17,7 @@ figure.dpi      : 300
 lines.linewidth: 2
 
 ### TITLE
-figure.titlesize: 22
+figure.titlesize: 32
 
 #### AXES
 axes.linewidth: 2
