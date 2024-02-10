@@ -1,4 +1,4 @@
-#### MY UTEP MATPLOTLIB STYLE
+#### MY PAPER MATPLOTLIB STYLE
 #### CONFIGURATION BEGINS HERE
 
 #### FONTS
@@ -26,9 +26,9 @@ axes.linewidth : 2
 axes.titlesize: large
 axes.labelsize: large
 axes.spines.bottom: True
-axes.spines.left:   True
+axes.spines.left:   False
 axes.spines.right:  True
-axes.spines.top:    True
+axes.spines.top:    False
 axes.grid      : False
 axes.grid.axis : both
 axes.grid.which: major
