@@ -33,8 +33,8 @@ axes.grid      : False
 axes.grid.axis : both
 axes.grid.which: major
 
-xtick.labelsize: large
-ytick.labelsize: large
+axes.labelsize: large
+
 
 grid.linestyle: dotted
 grid.color: gray
