@@ -23,8 +23,8 @@ axes.titlepad     : 12
 
 #### AXES
 axes.linewidth: 2
-axes.titlesize: large
-axes.labelsize: large
+axes.titlesize: 20
+axes.labelsize: 20
 axes.spines.bottom: True
 axes.spines.left:   True
 axes.spines.right:  False
