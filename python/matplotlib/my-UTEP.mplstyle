@@ -7,7 +7,7 @@ font.size  : large
 font.sans-serif: Roboto condensed, Arial, Verdana
 
 #### COLORS
-axes.prop_cycle: cycler('color', ['tab:blue','tab:orange','tab:green','tab:red','tab:purple','tab:brown','tab:pink','tab:gray','tab:olive','tab:cyan'])
+axes.prop_cycle: cycler('color', ['041E42','FF8200','B1B3B3','tab:green','tab:red','tab:purple','tab:brown','tab:pink','tab:olive','tab:cyan'])
 
 ### FIGURE MAIN SETTINGS
 figure.figsize  : 16, 9
@@ -17,8 +17,9 @@ figure.dpi      : 300
 lines.linewidth: 2
 
 ### TITLE
-figure.titlesize: xx-large
-figure.labelsize: xx-large
+axes.titlelocation: center
+axes.titlesize    : xx-large 
+axes.titlepad     : 12
 
 
 #### AXES
